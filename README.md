@@ -7,7 +7,7 @@ superior project management.
 
 ## ⚡ Requirements
 
-- Neovim >= 0.5.0
+- Neovim >= 0.12.1
 
 ## ✨ Features
 
@@ -53,7 +53,7 @@ Install the plugin with your preferred package manager:
 
 ```vim
 " Vim Script
-Plug 'ahmedkhalf/project.nvim'
+Plug 't-royale/project.nvim'
 
 lua << EOF
   require("project_nvim").setup {
@@ -69,7 +69,7 @@ EOF
 ```lua
 -- Lua
 use {
-  "ahmedkhalf/project.nvim",
+  "t-royale/project.nvim",
   config = function()
     require("project_nvim").setup {
       -- your configuration comes here
