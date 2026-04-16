@@ -1,4 +1,6 @@
-# 🗃️ project.nvim
+# 🗃️ Fork of project.nvim by [ ahmedkhalf ](https://github.com/ahmedkhalf/project.nvim)
+
+## This fork is made to fix warnings coming from deprecated calls like `vim.lsp.buf_get_clients()` (removed in NVIM 0.12)
 
 **project.nvim** is an all in one neovim plugin written in lua that provides
 superior project management.
